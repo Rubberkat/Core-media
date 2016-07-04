@@ -1,0 +1,69 @@
+.left {
+  background-color: $green;
+  height: $size;
+
+}
+
+.mid {
+  position: relative;
+  margin-left: -26px;
+  height: $size;
+}
+
+.right {
+  background-color: $right_color;
+  height:$size;
+}
+
+.bgimg{
+  width:100%;
+  height:100%;
+}
+
+.black {
+  padding-left:100px;
+  opacity: 0.90;
+  position: absolute;
+  background-color: #262626;
+  height: $size;
+  width: 71%;
+}
+
+.subtitle {
+  padding-top:60px;
+  font-family:  $titlefont;
+  font-weight: bold;
+  color: $green;
+  font-size: 30px;
+}
+
+.title {
+  padding-top: 20px;
+  font-family: $titlefont;
+  font-weight: bold;
+  color: $fontcolor_text;
+  font-size: 50px;
+}
+
+.text {
+  padding-top: 40px;
+  color: $fontcolor_main;
+  font-size:20px;
+  font-style: italic;
+  opacity: 0.90;
+}
+
+.border {
+  padding: 10px;
+  border-bottom: 4px solid $green;
+  width:56px;
+}
+
+.circle {
+  margin-top:-90px;
+  margin-left:300px;
+  background-color: $green;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}

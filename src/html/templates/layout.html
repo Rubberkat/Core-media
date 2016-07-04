@@ -3,13 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <title>{% block title %} {% endblock %}</title>
-    <link rel="stylesheet" href="scss/styles.css">
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
-{% include "menu.html" %}
 
-{% block content %} {% endblock %}
 
-{% include "footer.html" %}
+<div class="row">
+    <div class="two">
+        <div class="left">
+            <br>
+        </div>
+    </div>
+</div>
+
+<div class="ten">
+    <div class="mid">
+      <div class="bgimg">
+          <div class="black">
+              {% include "menu.html" %}
+              <div class="subtitle">WE LOVE TO</div>
+              <div class="title">CREATE DIGITAL EXPERIENCES</div>
+              <div class="border"></div>
+              <div class="text">Core Media creates experiences<br>
+                  that transform brands, grow<br>
+                  buisinesses and make people's<br> lives better
+              </div>
+              <div class="circle"></div>
+          </div>
+
+          <img src="../src/images/natural-eyes.jpg" class="bgimg">
+      </div>
+    </div>
+</div>
+
+
+</div>
 </body>
 </html>
