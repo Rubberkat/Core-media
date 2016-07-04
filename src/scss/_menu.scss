@@ -1,0 +1,24 @@
+.menucontainer {
+  list-style-type: none;
+  overflow: hidden;
+  font-family: $titlefont;
+  font-weight: bold;
+  border-bottom: 1px solid $fontcolor_main;
+  width: 90%;
+}
+
+.menuleft {
+  color:$fontcolor_main;
+  opacity: 0.8;
+  float:left;
+  font-size:18px;
+  margin-left:-40px;
+  padding: 14px 0 14px 0px;
+}
+
+.menuright {
+  color:$fontcolor_text;
+  float:right;
+  font-size:12px;
+  padding: 14px 0 14px 14px;
+}
